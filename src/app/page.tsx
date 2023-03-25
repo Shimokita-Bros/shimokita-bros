@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getList } from 'libs/microcms';
+import { getList } from 'src/libs/microcms';
 
 export default async function StaticPage() {
   const { contents } = await getList();

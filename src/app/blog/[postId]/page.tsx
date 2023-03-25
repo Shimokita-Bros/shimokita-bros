@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import parse from 'html-react-parser';
-import { getDetail, getList } from 'libs/microcms';
+import { getDetail, getList } from 'src/libs/microcms';
 import styles from 'src/app/blog/[postId]/post.module.scss';
 
 // キャッシュを利用しない
